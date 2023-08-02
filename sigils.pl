@@ -11,7 +11,7 @@ my @names = ("John","Michael","Myers"); #array
 
 use Data::Dumper;
 #my %hash = ('abc' => 123, 'def' => [4,5,6]);
-my %dictionary1=("Rohit" , "Ramnani", "Meera" , "Ramnani", "Charu" , "Ramnani"); # dictionary or hash or key-value pair
+my %dictionary1=("John" , "Smith", "Person" , "Surname", "Kiran" , "Gurnath"); # dictionary or hash or key-value pair
  
 
 print ("hi");
