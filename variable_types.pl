@@ -1,7 +1,7 @@
 #!/usr/bin/perl
 
-# use strict 
-# use warnings
+use strict 
+use warnings
 
 # Integer
 my $int = 10; # scalar
