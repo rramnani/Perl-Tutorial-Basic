@@ -1,7 +1,7 @@
 #!/usr/bin/perl
 
-# use strict 
-# use warnings
+use strict; 
+use warnings;
 
 # scalar variables use the sigil $
 my $num = 10; # scalar
