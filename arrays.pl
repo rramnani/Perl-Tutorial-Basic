@@ -41,3 +41,36 @@ foreach my $i(@fruit){
     say $i;
 }
 say scalar @fruit;
+
+# push - adds element to the end of the array
+push @fruit, "mandarin";
+foreach my $i(@fruit){
+    say $i;
+}
+say scalar @fruit;
+
+# pop - removes element from the end of the array
+pop @fruit, "mandarin";
+foreach my $i(@fruit){
+    say $i;
+}
+say scalar @fruit;
+
+# splice
+splice @fruit, 2, 1, "peach "; # go to the index 2 => replace banana (1 elmenent - 2nd value) by peach
+foreach my $i(@fruit){
+    say $i;
+}
+say scalar @fruit;
+
+# slice
+say "Slice: ";
+print join(", ", @fruit[0,1,2]); # output the first three elements
+say "\nAnother slice: ";
+print join(", ", @fruit[0,2,3]); # output the index=0,2,3 elements
+
+# shift- removes element from the beginning/front of the array
+
+shift @fruit;
+say "\n";
+print join(", ", @fruit); 
