@@ -16,7 +16,7 @@ use autodie; # halt if there are problems reading or writing a file
 
 use Path::Tiny qw(path);
  
-my $filename = "C:/Users/nxf65496/Downloads/org_employees.txt";
+my $filename = "<$PWD>/org_employees.txt";
 
 my $file = path($filename);
 
@@ -29,8 +29,6 @@ while(<$empnames>){
     print "$_";
 }
 close($empnames);
-
-#my $file = "C:/Users/nxf65496/Downloads/org_employees.txt";
 
 open my $empnames, ">>", $filename; # empnames is the file handle, opened in append mode
 print {$empnames} "\n=== ### End of File ### ===";
